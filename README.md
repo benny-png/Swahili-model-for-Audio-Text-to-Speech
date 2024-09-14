@@ -113,7 +113,7 @@ The notebook includes detailed steps on how to fine-tune the MMS model for Swahi
 
 ## GitHub Repository
 
-For further exploration and code snippets, visit the [GitHub repository](https://github.com/benny-png/Swahili-model-for-Audio-Text-to-Speech) where you’ll find additional scripts, datasets, and instructions for customizing the model.
+For further exploration and code snippets, visit the [Source]([https://github.com/benny-png/Swahili-model-for-Audio-Text-to-Speech](https://github.com/ylacombe/finetune-hf-vits) where you’ll find additional scripts, datasets, and instructions for customizing the model.
 
 ## License
 
