@@ -103,7 +103,7 @@ pip install torch transformers numpy soundfile scipy pydub
 
 If you're interested in reproducing the fine-tuning process or using the model for similar purposes, you can check out the Google Colab notebook that outlines the entire process:
 
-- [Google Colab Notebook](upload file to Google Drive and provide the link here)
+- [Google Colab Notebook](https://colab.research.google.com/drive/1dK1a814UqDnXnM5Rz6NBmk-vmhdN9M4f#scrollTo=iG6IrVva27uT)
 
 The notebook includes detailed steps on how to fine-tune the MMS model for Swahili TTS.
 
