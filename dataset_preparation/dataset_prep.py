@@ -87,7 +87,7 @@ def upload_to_huggingface(dataset: Dataset, repo_id: str) -> None:
 
 
 # Example usage normally:
-# create_and_upload_dataset("data/audio", "data/text.csv", "my-dataset")
+create_and_upload_dataset("data/audio", "data/text.csv", "my-dataset")
 
 
 # Example usage in a FastAPI route:
