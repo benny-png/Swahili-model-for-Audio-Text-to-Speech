@@ -30,8 +30,8 @@ You can also download the model and tokenizer manually and run the text-to-speec
 import torch
 import numpy as np
 import scipy.io.wavfile
-from transformers import AutoTokenizer
-from vits_model import VitsModel  # Assuming VitsModel is the class for this TTS model
+from transformers import VitsModel, AutoTokenizer
+
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model_name = "Benjamin-png/swahili-mms-tts-finetuned"
