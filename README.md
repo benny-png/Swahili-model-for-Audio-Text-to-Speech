@@ -21,19 +21,8 @@ You can check out the code and process used in the fine-tuning by visiting the [
 
 You can load and use the model directly from the Hugging Face model hub using either the `pipeline` API or by manually downloading the model and tokenizer.
 
-### 1. Using the `pipeline` API
 
-```python
-from transformers import pipeline
-
-# Load the fine-tuned model
-tts = pipeline("text-to-speech", model="Benjamin-png/swahili-mms-tts-finetuned")
-
-# Generate speech from text
-speech = tts("Habari, karibu kwenye mfumo wetu wa kusikiliza kwa Kiswahili.")
-```
-
-### 2. Download and Run the Model Directly
+### 1. Download and Run the Model Directly
 
 You can also download the model and tokenizer manually and run the text-to-speech pipeline without the Hugging Face `pipeline` helper. Here's how:
 
@@ -66,6 +55,21 @@ output_np = output.squeeze().cpu().numpy()
 # Step 4: Write to WAV file
 scipy.io.wavfile.write(audio_file_path, rate=model.config.sampling_rate, data=output_np)
 ```
+
+
+### 2. Using the `pipeline` API
+
+```python
+from transformers import pipeline
+
+# Load the fine-tuned model
+tts = pipeline("text-to-speech", model="Benjamin-png/swahili-mms-tts-finetuned")
+
+# Generate speech from text
+speech = tts("Habari, karibu kwenye mfumo wetu wa kusikiliza kwa Kiswahili.")
+```
+
+
 
 ### Saving and Playing the Audio
 
